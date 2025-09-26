@@ -1,0 +1,174 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="rULd7pBgQ6awdKB3KA3O">
+    <mxGraphModel dx="1411" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-23" value="EntityManager / Hibernate" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="138.5" y="560" width="291.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vK8HXaf2Bst8ul_hzYVm-42" value="Repository-Interface" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="139" y="80" width="550" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-1" value="CRUD-Methoden" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="344.5" y="120" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-2" value="Derived Queries" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="343.5" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-6" value="Data JPA" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="10" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-7" value="Data JDBC" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="459" y="10" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-12" value="Programmierte Queries" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="139" y="340" width="290" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-13" value="Criteria API (ohne Strings, typsicher)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="170" y="380" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-14" value="CRUD-Methoden" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="170.25" y="600" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-15" value="JdbcTemplate" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="139" y="710" width="550" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-17" value=".query() mit SQL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="330" y="750" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-18" value="Specifications (baut auf Criteria API auf)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="169.5" y="420" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-19" value="High&lt;div&gt;Level&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="90" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-20" value="Mid&lt;div&gt;Level&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="340" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-21" value="Low&lt;div&gt;Level&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="560" width="90" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-22" value="Query by Example" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="343.5" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-24" value="Querydsl (extra Lib, typsicher)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="169.5" y="460" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20.5" y="840" as="sourcePoint" />
+            <mxPoint x="810.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-26" target="Ut3QOmlQ1fsutzuc1gcF-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-26" value="JpaRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="141.75" y="950" width="141.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-27" target="Ut3QOmlQ1fsutzuc1gcF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-10" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ut3QOmlQ1fsutzuc1gcF-45">
+          <mxGeometry x="-0.45" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-27" value="MyJpaRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="141.75" y="870" width="141.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-28" target="Ut3QOmlQ1fsutzuc1gcF-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-28" target="Ut3QOmlQ1fsutzuc1gcF-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-28" value="CrudRepository&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="329.25" y="1010" width="159.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-29" target="GMvpRuGKGKD4QVABmz52-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-8" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GMvpRuGKGKD4QVABmz52-4">
+          <mxGeometry x="0.4244" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-29" value="SimpleJpaRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="33.25" y="1070" width="278.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-34" target="GMvpRuGKGKD4QVABmz52-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-34" value="EntityManager" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="62" y="1110" width="111.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-35" target="Ut3QOmlQ1fsutzuc1gcF-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-11" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ut3QOmlQ1fsutzuc1gcF-42">
+          <mxGeometry x="-0.8344" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-35" value="MyJdbcRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="533.25" y="870" width="139" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-36" target="GMvpRuGKGKD4QVABmz52-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-9" value="SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GMvpRuGKGKD4QVABmz52-5">
+          <mxGeometry x="0.3552" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-36" value="SimpleJdbcRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="513.25" y="1070" width="211.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-38" value="JdbcAggregateTemplate" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="543.87" y="1110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-46" target="Ut3QOmlQ1fsutzuc1gcF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-46" value="PagingAndSorting +&lt;div&gt;QueryByExample&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="14" y="1000" width="141.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-48" value="PagingAndSorting +&lt;div&gt;QueryByExample&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="672.25" y="970" width="141.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.784;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-48" target="Ut3QOmlQ1fsutzuc1gcF-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-52" value="createQuery() mit SQL oder JPQL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="169.5" y="640" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-53" value="+ JPQL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="270" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-54" value="@Query mit SQL" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="344.5" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ut3QOmlQ1fsutzuc1gcF-55" target="Ut3QOmlQ1fsutzuc1gcF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ut3QOmlQ1fsutzuc1gcF-55" value="ListCrudRepository" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="329.25" y="950" width="160.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-1" value="Hibernate" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="203.25" y="1110" width="81.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GMvpRuGKGKD4QVABmz52-3" target="GMvpRuGKGKD4QVABmz52-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-3" value="JDBC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="333.25" y="1190" width="151.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GMvpRuGKGKD4QVABmz52-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="375.13" y="1290" width="67.5" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
